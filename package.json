@@ -1,6 +1,6 @@
 {
   "name": "DataFlux",
-  "description": "Landing page template utilizing Shadcn, React, Typescript, and Tailwind CSS for rapid development and responsive design.",
+  "description": "DataFlux",
   "author": {
     "name": "SMBH",
     "email": "smbhop@pm.me",
@@ -10,11 +10,7 @@
   "keywords": [
     "react",
     "typescript",
-    "shadcn",
-    "shadcn/ui",
     "tailwind",
-    "landing-page",
-    "template",
     "responsive-design"
   ],
   "private": true,

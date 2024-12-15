@@ -11,12 +11,13 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
+import DataFluxIcon from "../assets/dataflux-logo.png";
 
 import { GitHubLogoIcon } from "@radix-ui/react-icons";
 import { buttonVariants } from "./ui/button";
 import { Menu } from "lucide-react";
 import { ModeToggle } from "./mode-toggle";
-import { LogoIcon } from "./Icons";
+// import { LogoIcon } from "./Icons";
 
 interface RouteProps {
   href: string;
@@ -54,7 +55,12 @@ export const Navbar = () => {
               href="/"
               className="ml-2 font-bold text-xl flex"
             >
-              <LogoIcon />
+              {/* <LogoIcon /> */}
+              <img
+                src={DataFluxIcon}
+                className="w-[32px] object-contain mt-1"
+                alt="About services"
+              />
               DataFlux
             </a>
           </NavigationMenuItem>
@@ -79,7 +85,7 @@ export const Navbar = () => {
               <SheetContent side={"left"}>
                 <SheetHeader>
                   <SheetTitle className="font-bold text-xl">
-                    Shadcn/React
+                    DataFlux
                   </SheetTitle>
                 </SheetHeader>
                 <nav className="flex flex-col justify-center items-center gap-2 mt-4">
@@ -96,7 +102,7 @@ export const Navbar = () => {
                   ))}
                   <a
                     rel="noreferrer noopener"
-                    href="https://github.com/leoMirandaa/shadcn-landing-page.git"
+                    href="https://github.com/hopetech01"
                     target="_blank"
                     className={`w-[110px] border ${buttonVariants({
                       variant: "secondary",
@@ -129,7 +135,7 @@ export const Navbar = () => {
           <div className="hidden md:flex gap-2">
             {/* <a
               rel="noreferrer noopener"
-              href="https://github.com/leoMirandaa/shadcn-landing-page.git"
+              href="https://github.com/hopetech01"
               target="_blank"
               className={`border ${buttonVariants({ variant: "secondary" })}`}
             >

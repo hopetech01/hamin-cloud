@@ -1,5 +1,7 @@
 import { LogoIcon } from "./Icons";
 import { DockDemo } from "@/components/ContactUs";
+import DataFluxIcon from "../assets/dataflux-logo.png";
+
 
 export const Footer = () => {
   return (
@@ -13,7 +15,12 @@ export const Footer = () => {
             href="/"
             className="font-bold text-xl flex"
           >
-            <LogoIcon />
+            {/* <LogoIcon /> */}
+              <img
+                src={DataFluxIcon}
+                className="w-[32px] object-contain mt-1"
+                alt="About services"
+              />
             DataFlux
           </a>
         </div>
