@@ -1,6 +1,6 @@
 // import { LogoIcon } from "./Icons";
 import { DockDemo } from "@/components/ContactUs";
-import DataFluxIcon from "../assets/dataflux-logo.png";
+import HaminCloudIcon from "../assets/hamin-logo.svg";
 
 
 export const Footer = () => {
@@ -17,11 +17,11 @@ export const Footer = () => {
           >
             {/* <LogoIcon /> */}
               <img
-                src={DataFluxIcon}
-                className="w-[32px] object-contain mt-1"
+                src={HaminCloudIcon}
+                className="w-[16px] object-contain mr-2"
                 alt="About services"
               />
-            DataFlux
+            Hamin Cloud
           </a>
         </div>
 

@@ -32,7 +32,7 @@ export const About = () => {
         <div className="px-6 flex flex-col-reverse md:flex-row gap-8 md:gap-12">
           <img
             src={gpu}
-            alt="Illustration of DataFlux services"
+            alt="Illustration of Hamin Cloud services"
             className="w-[300px] object-contain rounded-lg"
           />
           <div className="bg-green-0 flex flex-col justify-between">
@@ -41,14 +41,14 @@ export const About = () => {
                 <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
                   About{" "}
                 </span>
-                DataFlux
+                Hamin Cloud
               </h2>
               <p className="text-xl text-muted-foreground mt-4">
-                At DataFlux, we empower businesses, startups, and enterprises with state-of-the-art AI infrastructure. Our platform provides GPU-powered virtual machines and pods, enabling you to train, fine-tune, and deploy AI models seamlessly. With our pay-as-you-go model, you only pay for the resources you use.
+                At Hamin Cloud, we empower businesses, startups, and enterprises with state-of-the-art AI infrastructure. Our platform provides GPU-powered virtual machines and pods, enabling you to train, fine-tune, and deploy AI models seamlessly. With our pay-as-you-go model, you only pay for the resources you use.
                 <br /><br />
                 We offer a comprehensive suite of services including pre-trained models, customer-specific model hosting, and APIs to integrate AI into your applications effortlessly. Our CLI tool and library allow you to leverage these capabilities with just a few lines of code.
                 <br /><br />
-                Additionally, our data platform streamlines data gathering and labeling, delivering high-quality datasets tailored to your needs. Whether you’re building cutting-edge AI solutions or scaling your existing infrastructure, DataFlux is your trusted partner in innovation.
+                Additionally, our data platform streamlines data gathering and labeling, delivering high-quality datasets tailored to your needs. Whether you’re building cutting-edge AI solutions or scaling your existing infrastructure, Hamin Cloud is your trusted partner in innovation.
               </p>
             </div>
 

@@ -11,7 +11,7 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
-import DataFluxIcon from "../assets/dataflux-logo.png";
+import HaminCloudIcon from "../assets/hamin-logo.svg";
 
 import { GitHubLogoIcon } from "@radix-ui/react-icons";
 import { buttonVariants } from "./ui/button";
@@ -57,11 +57,11 @@ export const Navbar = () => {
             >
               {/* <LogoIcon /> */}
               <img
-                src={DataFluxIcon}
-                className="w-[32px] object-contain mt-1"
+                src={HaminCloudIcon}
+                className="w-[16px] object-contain mr-2"
                 alt="About services"
               />
-              DataFlux
+              Hamin Cloud
             </a>
           </NavigationMenuItem>
 
@@ -85,7 +85,7 @@ export const Navbar = () => {
               <SheetContent side={"left"}>
                 <SheetHeader>
                   <SheetTitle className="font-bold text-xl">
-                    DataFlux
+                  Hamin Cloud
                   </SheetTitle>
                 </SheetHeader>
                 <nav className="flex flex-col justify-center items-center gap-2 mt-4">
