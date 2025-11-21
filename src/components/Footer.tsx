@@ -27,7 +27,7 @@ export const Footer = () => {
 
         <div className="flex flex-col gap-2">
           <h3 className="font-bold text-lg">Follow US</h3>
-          <div>
+          {/* <div>
             <a
               rel="noreferrer noopener"
               href="#"
@@ -55,12 +55,12 @@ export const Footer = () => {
             >
               Dribbble
             </a>
-          </div>
+          </div> */}
         </div>
 
         <div className="flex flex-col gap-2">
           <h3 className="font-bold text-lg">Platforms</h3>
-          <div>
+          {/* <div>
             <a
               rel="noreferrer noopener"
               href="#"
@@ -88,7 +88,7 @@ export const Footer = () => {
             >
               Desktop
             </a>
-          </div>
+          </div> */}
         </div>
 
         <div className="flex flex-col gap-2">
@@ -126,7 +126,7 @@ export const Footer = () => {
 
         <div className="flex flex-col gap-2">
           <h3 className="font-bold text-lg">Community</h3>
-          <div>
+          {/* <div>
             <a
               rel="noreferrer noopener"
               href="#"
@@ -154,8 +154,9 @@ export const Footer = () => {
             >
               Twitch
             </a>
-          </div>
+          </div> */}
         </div>
+        
       </section>
 
       <DockDemo />
@@ -166,10 +167,11 @@ export const Footer = () => {
           <a
             rel="noreferrer noopener"
             target="_blank"
-            href="https://github.com/hopetech01"
+            // href="https://github.com/hopetech01"
+            href="mailto:smbhop@gmail.com"
             className="text-primary transition-all border-primary hover:border-b-2"
           >
-            HopeTech
+            HaminTech
           </a>
         </h3>
       </section>

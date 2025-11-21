@@ -1,6 +1,5 @@
 // https://ui.aceternity.com/components/github-globe
 "use client";
-import { motion } from "framer-motion";
 import dynamic from "next/dynamic";
 
 const World = dynamic(() => import("./ui/globe").then((m) => m.World), {
@@ -30,15 +29,17 @@ export function GlobeDemo() {
     autoRotate: true,
     autoRotateSpeed: 0.5,
   };
+
   const colors = [
-    "#06b6d4", // teal-ish
-    "#3b82f6", // blue
-    "#6366f1", // indigo
-    "#f59e0b", // amber
-    "#ef4444", // red
-    "#10b981", // emerald green
-    "#ec4899", // pink
+    "#06b6d4",
+    "#3b82f6",
+    "#6366f1",
+    "#f59e0b",
+    "#ef4444",
+    "#10b981",
+    "#ec4899",
   ];
+
   const sampleArcs = [
     {
       order: 1,
@@ -403,26 +404,8 @@ export function GlobeDemo() {
   ];
 
   return (
-    <div className="relative h-screen w-screen bg-transparent flex flex-col items-center justify-center">
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1 }}
-      >
-        <h2 className="text-center text-3xl md:text-4xl font-bold">
-          <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-          Scale{" "}
-          </span>
-          Your AI Workloads
-        </h2>
-
-        <p className="text-center text-base md:text-lg font-normal text-neutral-700 dark:text-neutral-200 max-w-md mt-2 mx-auto">
-          Just spin up, go global, and innovate.
-        </p>
-      </motion.div>
-      <div className="w-full h-full flex items-center justify-center">
-        <World data={sampleArcs} globeConfig={globeConfig} />
-      </div>
+    <div className="relative w-full h-full min-h-[260px] sm:min-h-[320px] lg:min-h-[380px]">
+      <World data={sampleArcs} globeConfig={globeConfig} />
     </div>
   );
 }
