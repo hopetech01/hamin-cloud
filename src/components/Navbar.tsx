@@ -11,7 +11,7 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
-import HaminCloudIcon from "../assets/hamin-logo.svg";
+import OtterByteIcon from "../assets/logo.png";
 
 import { GitHubLogoIcon } from "@radix-ui/react-icons";
 import { buttonVariants } from "./ui/button";
@@ -57,11 +57,11 @@ export const Navbar = () => {
             >
               {/* <LogoIcon /> */}
               <img
-                src={HaminCloudIcon}
+                src={OtterByteIcon}
                 className="w-[16px] object-contain mr-2"
                 alt="About services"
               />
-              Hamin Cloud
+              OtterByte
             </a>
           </NavigationMenuItem>
 
@@ -85,7 +85,7 @@ export const Navbar = () => {
               <SheetContent side={"left"}>
                 <SheetHeader>
                   <SheetTitle className="font-bold text-xl">
-                  Hamin Cloud
+                  OtterByte
                   </SheetTitle>
                 </SheetHeader>
                 <nav className="flex flex-col justify-center items-center gap-2 mt-4">

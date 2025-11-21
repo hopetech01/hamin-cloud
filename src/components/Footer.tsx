@@ -1,6 +1,6 @@
 // import { LogoIcon } from "./Icons";
 import { DockDemo } from "@/components/ContactUs";
-import HaminCloudIcon from "../assets/hamin-logo.svg";
+import OtterByteIcon from "../assets/logo.png";
 
 
 export const Footer = () => {
@@ -17,11 +17,11 @@ export const Footer = () => {
           >
             {/* <LogoIcon /> */}
               <img
-                src={HaminCloudIcon}
+                src={OtterByteIcon}
                 className="w-[16px] object-contain mr-2"
                 alt="About services"
               />
-            Hamin Cloud
+            OtterByte
           </a>
         </div>
 

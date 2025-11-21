@@ -17,14 +17,14 @@ export function FAQ() {
 
       <Accordion type="single" collapsible className="w-full">
         <AccordionItem value="item-1">
-          <AccordionTrigger>What is Hamin Cloud?</AccordionTrigger>
+          <AccordionTrigger>What is OtterByte?</AccordionTrigger>
           <AccordionContent>
-          Hamin Cloud provides cutting-edge AI infrastructure solutions for businesses, startups, and companies. We offer GPU-powered virtual machines, pods, and platforms to train, fine-tune, and deploy AI models efficiently.
+          OtterByte provides cutting-edge AI infrastructure solutions for businesses, startups, and companies. We offer GPU-powered virtual machines, pods, and platforms to train, fine-tune, and deploy AI models efficiently.
           </AccordionContent>
         </AccordionItem>
 
         <AccordionItem value="item-2">
-          <AccordionTrigger>How does Hamin Cloud pricing work?</AccordionTrigger>
+          <AccordionTrigger>How does OtterByte pricing work?</AccordionTrigger>
           <AccordionContent>
             We use a pay-as-you-go model for our virtual machines and GPU pods. For our model-serving platform, customers are charged per request.
           </AccordionContent>
@@ -33,7 +33,7 @@ export function FAQ() {
         <AccordionItem value="item-3">
           <AccordionTrigger>What services do you offer?</AccordionTrigger>
           <AccordionContent>
-          Hamin Cloud offers:
+          OtterByte offers:
             <ul className="list-disc pl-6">
               <li>GPU-powered virtual machines and pods.</li>
               <li>A platform to deploy pre-trained and customer-specific AI models with APIs.</li>
@@ -44,7 +44,7 @@ export function FAQ() {
         </AccordionItem>
 
         <AccordionItem value="item-4">
-          <AccordionTrigger>Can I train and fine-tune my models on Hamin Cloud?</AccordionTrigger>
+          <AccordionTrigger>Can I train and fine-tune my models on OtterByte?</AccordionTrigger>
           <AccordionContent>
             Absolutely! Our infrastructure allows you to train and fine-tune models with just a few lines of code using our CLI tool or library. We support a variety of frameworks and configurations.
           </AccordionContent>
@@ -58,7 +58,7 @@ export function FAQ() {
         </AccordionItem>
 
         <AccordionItem value="item-6">
-          <AccordionTrigger>How do I get started with Hamin Cloud?</AccordionTrigger>
+          <AccordionTrigger>How do I get started with OtterByte?</AccordionTrigger>
           <AccordionContent>
             Getting started is easy! Sign up on our platform, choose the services you need, and start leveraging our AI infrastructure. Our CLI and library documentation will guide you through the process.
           </AccordionContent>
